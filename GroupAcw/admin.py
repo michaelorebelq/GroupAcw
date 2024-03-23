@@ -8,3 +8,7 @@ admin.site.register(User)
 admin.site.register(Reservation)
 admin.site.register(Alert)
 admin.site.register(Report)
+
+admin.site.site_header = 'Westminster University Inventory Admin Login'
+admin.site.site_title = 'Admin Login'
+
