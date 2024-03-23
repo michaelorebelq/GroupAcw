@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Location(models.Model):
     location_id = models.AutoField(primary_key=True)
     location_name = models.CharField(max_length=255)
@@ -8,6 +9,7 @@ class Location(models.Model):
     def __str__(self):
         return self.location_name
 
+
 class Category(models.Model):
     category_id = models.AutoField(primary_key=True)
     category_name = models.CharField(max_length=255)
@@ -15,6 +17,7 @@ class Category(models.Model):
 
     def __str__(self):
         return self.category_name
+
 
 class Equipment(models.Model):
     equipment_id = models.AutoField(primary_key=True)
@@ -31,6 +34,7 @@ class Equipment(models.Model):
     def __str__(self):
         return self.equipment_name
 
+
 class User(models.Model):
     user_id = models.AutoField(primary_key=True)
     username = models.CharField(max_length=255)
@@ -41,6 +45,7 @@ class User(models.Model):
     def __str__(self):
         return self.username
 
+
 class Reservation(models.Model):
     reservation_id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -49,6 +54,7 @@ class Reservation(models.Model):
     end_date = models.DateField()
     reservation_status = models.CharField(max_length=255)
 
+
 class Alert(models.Model):
     alert_id = models.AutoField(primary_key=True)
     reservation = models.ForeignKey(Reservation, on_delete=models.CASCADE)
@@ -56,6 +62,7 @@ class Alert(models.Model):
     alert_date = models.DateTimeField()
     alert_type = models.CharField(max_length=255)
     status = models.CharField(max_length=255)
+
 
 class Report(models.Model):
     report_id = models.AutoField(primary_key=True)
