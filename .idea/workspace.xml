@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236739aa-0973-41a8-abb3-efd6ec404738" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/GroupAcw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GroupAcw.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupAcw/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupAcw/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupAcw/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupAcw/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupAcw/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupAcw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupAcw/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="236739aa-0973-41a8-abb3-efd6ec404738" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +131,7 @@
       <updated>1711120881294</updated>
       <workItem from="1711120967448" duration="3574000" />
       <workItem from="1711204232693" duration="596000" />
-      <workItem from="1711204941585" duration="5448000" />
+      <workItem from="1711204941585" duration="5725000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -181,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711204782840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1711212192398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711212192398</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
